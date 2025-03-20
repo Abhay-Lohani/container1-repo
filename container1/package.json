@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Microservice for storing files and handling communication with Container 2",
     "main": "server.js",
-    "scripts": {
+    "scripts":  {
       "start": "node server.js"
     },
     "dependencies": {
@@ -13,4 +13,3 @@
       "axios": "^1.4.0"
     }
   }
-  
