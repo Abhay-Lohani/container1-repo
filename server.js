@@ -81,7 +81,7 @@ app.post('/store-file', (req, res) => {
         return res.status(200).json({ file, message: "Success." });
     });
 });
-
+//added second blanl line
 app.post('/calculate', async (req, res) => {
     const { file, product } = req.body;
     if (!file || !product) {
@@ -92,7 +92,7 @@ app.post('/calculate', async (req, res) => {
     if (!fs.existsSync(filePath)) {
         return res.status(404).json({ file, error: "File not found." });
     }
-    //ff
+    //added new line 
 
     const fileData = fs.readFileSync(filePath, 'utf8');
     try {
