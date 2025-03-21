@@ -18,3 +18,7 @@ steps:
     args: ['push', 'us-central1-docker.pkg.dev/your-project-id/my-repo/container1:latest']
 images:
   - 'us-central1-docker.pkg.dev/your-project-id/my-repo/container1:latest'
+
+options:
+  logging: 'NONE'  # No logs generated
+
